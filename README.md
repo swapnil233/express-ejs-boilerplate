@@ -1,3 +1,5 @@
+![122118_0445_MVCTutorial1d](https://user-images.githubusercontent.com/36313876/175852876-e444683c-7d89-4c07-ace0-2f0aae904ed6.png)
+
 # express-ejs-boilerplate
 Quick boilerplate with MVC folder structure to get up and running with an express and ejs (or whatever view engine) project
 
