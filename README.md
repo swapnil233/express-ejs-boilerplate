@@ -8,3 +8,11 @@ Quick boilerplate with MVC folder structure to get up and running with an expres
 2. `git clone https://github.com/swapnil233/express-ejs-boilerplate.git` or just download these files
 3. `touch .env`
 4. inside the console, run `npm install` to install all packages
+
+## Deploying to Heroku
+1. make heroku project
+2. have heroku cli installed
+3. in the project folder terminal:
+* `heroku login`
+* add heroku remote using `heroku git:clone -a <PROJECT-NAME>`
+* `git push heroku main`
