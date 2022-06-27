@@ -20,12 +20,12 @@ app.use(morgan('dev'))
 
 // Static Files
 app.use(express.static('public'));
-app.use("/css", express.static(__dirname + "Public/css"))
-app.use("/img", express.static(__dirname + "Public/img"))
-app.use("/js", express.static(__dirname + "Public/js"))
+app.use("/css", express.static(__dirname + "public/css"))
+app.use("/img", express.static(__dirname + "public/img"))
+app.use("/js", express.static(__dirname + "public/js"))
 
 // Routes
-const homeRoutes = require("./Src/Routes/homeRoutes");
+const homeRoutes = require("./src/routes/homeRoutes");
 
 // Router Middlewares
 app.use("/home", homeRoutes);

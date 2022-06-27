@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 // Controller
-const homeController = require("../../Controllers/homeController");
+const homeController = require("../../controllers/homeController");
 
 // Middlewares
 router.use(express.urlencoded({ extended: true }));
